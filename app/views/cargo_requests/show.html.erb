@@ -1,0 +1,64 @@
+<p>
+  <strong>First name:</strong>
+  <%= @cargo_request.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @cargo_request.last_name %>
+</p>
+
+<p>
+  <strong>Middle name:</strong>
+  <%= @cargo_request.middle_name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @cargo_request.phone %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @cargo_request.email %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @cargo_request.weight %> kg
+</p>
+
+<p>
+  <strong>Length:</strong>
+  <%= @cargo_request.length %> cm
+</p>
+
+<p>
+  <strong>Width:</strong>
+  <%= @cargo_request.width %> cm
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @cargo_request.height %> cm
+</p>
+
+<p>
+  <strong>Origin:</strong>
+  <%= @cargo_request.origin %>
+</p>
+
+<p>
+  <strong>Destination:</strong>
+  <%= @cargo_request.destination %>
+</p>
+
+<p>
+  <strong>Distance:</strong>
+  <%= @cargo_request.distance %> km
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= number_to_currency(@cargo_request.price) %>
+</p>

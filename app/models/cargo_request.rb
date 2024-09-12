@@ -1,0 +1,2 @@
+class CargoRequest < ApplicationRecord
+end
